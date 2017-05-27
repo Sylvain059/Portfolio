@@ -7,13 +7,14 @@
     <title>Portfolio Sylvain</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!--    LINK FONT    -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto+Condensed" rel="stylesheet">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!--  CSS LINKS  -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
@@ -45,7 +46,7 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav pull-right">
                         <li class="active"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">A propos</a></li>
+                        <li><a href="#">Présentation</a></li>
                         <li><a href="#">Projet</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Réseaux Sociaux</a></li>
@@ -58,19 +59,33 @@
     </header>
 
     <div class="jumbotron">
-        <section class="container for-about">
+        <section class="container">
             <h1>Bienvenue sur mon Portfolio</h1>
-            <p>Vous pourrez y retrouver tout mes projets récent</p>
+            <p>Vous pourrez y retrouver tout les informations me concernant ainsi que mes projets récents</p>
         </section>
     </div>
 
+    <section>
+        <div class="container">
+            <h2>Présentation</h2>
+            <figure class="row">
+                <img class="img-responsive img-rounded col-xs-12 col-sm-3" src="img/me.jpg" alt="Sylvain Sculier">
+                <figcaption class="col-xs-12 col-sm-offset-1 col-sm-6 figcaption">Je suis Sylvain Sculier, apprenant de Simplon à l'ADEP de Roubaix. Actuellement j'ai des bases en HTML 5, CSS3, Je sais également utilisé le framework Bootstrap. <br>
+                    <br>Prochainement je serais formé pour utiliser le JavaScript ainsi que le framework AngularJS, suivi par la suite du langage PHP et du framework Laravel.</figcaption>
+            </figure>
+        </div>
+    </section>
+
 
     <!--  Script JavaScript-->
-    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js">
+    </script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
     </script>
     <script src="js/plugins.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
