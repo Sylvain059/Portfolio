@@ -1,4 +1,4 @@
-    /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+        /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
     /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -299,8 +299,9 @@ CSS PRESENTATION
 ================================================
 */
     
-    section {
-        margin-bottom: 20px;
+    section,
+    form {
+        margin-bottom: 50px;
     }
     
     .img-rounded {
@@ -335,3 +336,31 @@ CSS PROJET
     .projet figcaption {
         margin-bottom: 25px;
     }
+    /*
+CSS CONTACT
+==============================================
+*/
+    
+    legend {
+        text-align: center;
+    }
+    /*
+CSS RESEAUX SOCIAUX
+==============================================
+*/
+    
+    footer ul {
+        list-style-type: none;
+        margin: 0;
+    }
+    
+    footer a {
+        padding: 0;
+        height: 96px;
+        width: 96px;
+    }
+    
+    footer .socialNetwork {
+        height: 96px;
+        width: auto;
+        margin-bottom: 30px;
