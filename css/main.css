@@ -259,7 +259,16 @@ font-family: 'Roboto Condensed', sans-serif;
     h6 {
         font-family: 'Indie Flower', cursive;
         font-weight: bold;
+        margin-bottom: 25px;
         text-align: center;
+    }
+    
+    a {
+        color: #000000;
+    }
+    
+    a:hover {
+        text-decoration: none;
     }
     /*
 CSS HEADER
@@ -290,6 +299,10 @@ CSS PRESENTATION
 ================================================
 */
     
+    section {
+        margin-bottom: 20px;
+    }
+    
     .img-rounded {
         height: 300px;
         width: 300px;
@@ -297,4 +310,28 @@ CSS PRESENTATION
     
     .figcaption {
         padding-top: 25px;
+    }
+    /*
+CSS PROJET
+===============================================
+*/
+    
+    .projet {
+        background-color: #222222;
+        text-align: center;
+    }
+    
+    .projet h2,
+    .projet a {
+        color: #ffffff;
+    }
+    
+    .projet img {
+        height: 200px;
+        margin-bottom: 25px;
+        width: 200px;
+    }
+    
+    .projet figcaption {
+        margin-bottom: 25px;
     }
