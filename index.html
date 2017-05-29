@@ -46,10 +46,10 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav pull-right">
                         <li class="active"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">Présentation</a></li>
-                        <li><a href="#">Projet</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Réseaux Sociaux</a></li>
+                        <li><a href="#présentation">Présentation</a></li>
+                        <li><a href="#projet">Projet</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#réseauxSociaux">Réseaux Sociaux</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -59,7 +59,7 @@
     </header>
 
     <div class="jumbotron">
-        <section class="container">
+        <section class="container Jumbotron">
             <h1>Bienvenue sur mon Portfolio</h1>
             <p>Vous pourrez y retrouver tout les informations me concernant ainsi que mes projets récents</p>
         </section>
@@ -67,53 +67,166 @@
 
     <!--    Présentation    -->
 
-    <section>
-        <div class="container">
-            <h2>Présentation</h2>
+    <div class="container-fluid">
+        <section class="container">
+            <h2 id="présentation">Présentation</h2>
             <figure class="row">
                 <img class="img-responsive img-rounded col-xs-12 col-sm-3" src="img/me.jpg" alt="Sylvain Sculier">
                 <figcaption class="col-xs-12 col-sm-offset-1 col-sm-6 figcaption">Je suis Sylvain Sculier, apprenant de Simplon à l'ADEP de Roubaix. Actuellement j'ai des bases en HTML 5, CSS3, Je sais également utilisé le framework Bootstrap. <br>
                     <br>Prochainement je serais formé pour utiliser le JavaScript ainsi que le framework AngularJS, suivi par la suite du langage PHP et du framework Laravel.</figcaption>
             </figure>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!--    Projet    -->
 
-    <section class="projet">
-        <div class="container">
-            <h2>Projet</h2>
+    <div class="container-fluid">
+        <section class="projet container">
+            <h2 id="projet">Projet</h2>
             <figure class="col-sm-6 col-md-3">
-                <a href="">
-                    <img src="img/gametek.png" alt="Vente informatique">
-                    <figcaption>Création Site de vente informatique</figcaption>
-                </a>
+
+                <img src="img/gametek.png" alt="Vente informatique">
+
+                <figcaption>Création Site de vente informatique</figcaption>
+                <!-- Bouton execution modal -->
+                <button class="btn" data-toggle="modal" data-target="#myModal">
+  Afficher plus
+</button>
             </figure>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h3 class="modal-title" id="myModalLabel">Création de site vente informatique</h3>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Présentation :</h4>
+                            <img src="img/gametek.png" alt="Vente informatique">
+                            <p>Un site de vente de produits informatiques avec 4 pages: <br>
+                                <br> 1. Une page d’accueil avec 3 fiches produits <br>2. Une page de présentation des produits accessibles en cliquant sur les fiches produits <br>3. Une page de contact avec les informations essentielles (téléphone, adresse, mail, etc.) <br>4. Une page de présentation de l’entreprise qui intègre une Map Google. <br>
+                                <br>Bonus: <br>
+                                <br>1. Intégrer une galerie d’images <br>2. Intégrer des icônes <br>3. Respecter les critères qualité: <br>• Mobile First (medias queries) <br>• Structure HTML clean <br>• Commentaires compréhensibles et concis. <br>
+                                <br>Pour voir le projet veuillez cliquer <a href="https://github.com/Sylvain059/Site-de-vente-de-produits-informatiques"><span>ici</span></a></p>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+
+
             <figure class="col-sm-6 col-md-3">
-                <a href="">
-                    <img src="img/plomberie.png" alt="Plomberie">
-                    <figcaption>Création Site de plomberie</figcaption>
-                </a>
+                <img src="img/plomberie.png" alt="Plomberie">
+                <figcaption>Création Site de plomberie</figcaption>
+                <!-- Bouton execution modal -->
+                <button class="btn" data-toggle="modal" data-target="#plomberie">
+  Afficher plus
+</button>
             </figure>
+
+            <!-- Modal -->
+            <div class="modal fade" id="plomberie" tabindex="-1" role="dialog" aria-labelledby="plomberieLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h3 class="modal-title" id="plomberieLabel">Création de site vente informatique</h3>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Présentation :</h4>
+                            <img src="img/gametek.png" alt="Vente informatique">
+                            <p>Un site de vente de produits informatiques avec 4 pages: <br>
+                                <br> 1. Une page d’accueil avec 3 fiches produits <br>2. Une page de présentation des produits accessibles en cliquant sur les fiches produits <br>3. Une page de contact avec les informations essentielles (téléphone, adresse, mail, etc.) <br>4. Une page de présentation de l’entreprise qui intègre une Map Google. <br>
+                                <br>Bonus: <br>
+                                <br>1. Intégrer une galerie d’images <br>2. Intégrer des icônes <br>3. Respecter les critères qualité: <br>• Mobile First (medias queries) <br>• Structure HTML clean <br>• Commentaires compréhensibles et concis. <br>
+                                <br>Pour voir le projet veuillez cliquer <a href="https://github.com/Sylvain059/Site-de-vente-de-produits-informatiques"><span>ici</span></a></p>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+
             <figure class="col-sm-6 col-md-3">
-                <a href="">
-                    <img src="img/piscine.png" alt="Piscine">
-                    <figcaption>Création Site de vente de piscine</figcaption>
-                </a>
+                <img src="img/piscine.png" alt="Piscine">
+                <figcaption>Création Site de vente de piscine</figcaption>
+                <!-- Bouton execution modal -->
+                <button class="btn" data-toggle="modal" data-target="#piscine">
+  Afficher plus
+</button>
             </figure>
+
+            <!-- Modal -->
+            <div class="modal fade" id="piscine" tabindex="-1" role="dialog" aria-labelledby="piscineLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h3 class="modal-title" id="piscineLabel">Création de site vente informatique</h3>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Présentation :</h4>
+                            <img src="img/gametek.png" alt="Vente informatique">
+                            <p>Un site de vente de produits informatiques avec 4 pages: <br>
+                                <br> 1. Une page d’accueil avec 3 fiches produits <br>2. Une page de présentation des produits accessibles en cliquant sur les fiches produits <br>3. Une page de contact avec les informations essentielles (téléphone, adresse, mail, etc.) <br>4. Une page de présentation de l’entreprise qui intègre une Map Google. <br>
+                                <br>Bonus: <br>
+                                <br>1. Intégrer une galerie d’images <br>2. Intégrer des icônes <br>3. Respecter les critères qualité: <br>• Mobile First (medias queries) <br>• Structure HTML clean <br>• Commentaires compréhensibles et concis. <br>
+                                <br>Pour voir le projet veuillez cliquer <a href="https://github.com/Sylvain059/Site-de-vente-de-produits-informatiques"><span>ici</span></a></p>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+
+
             <figure class="col-sm-6 col-md-3">
-                <a href="">
-                    <img src="img/webAgency.svg" alt="WebAgengy">
-                    <figcaption>Création Site d'agence web en binome</figcaption>
-                </a>
+                <img src="img/webAgency.svg" alt="WebAgengy">
+                <figcaption>Création Site d'agence web en binome</figcaption>
+                <!-- Bouton execution modal -->
+                <button class="btn" data-toggle="modal" data-target="#webAgency">
+  Afficher plus
+</button>
             </figure>
-        </div>
-    </section>
+
+            <!-- Modal -->
+            <div class="modal fade" id="webAgency" tabindex="-1" role="dialog" aria-labelledby="webAgencyLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h3 class="modal-title" id="webAgencyLabel">Création de site vente informatique</h3>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Présentation :</h4>
+                            <img src="img/gametek.png" alt="Vente informatique">
+                            <p>Un site de vente de produits informatiques avec 4 pages: <br>
+                                <br> 1. Une page d’accueil avec 3 fiches produits <br>2. Une page de présentation des produits accessibles en cliquant sur les fiches produits <br>3. Une page de contact avec les informations essentielles (téléphone, adresse, mail, etc.) <br>4. Une page de présentation de l’entreprise qui intègre une Map Google. <br>
+                                <br>Bonus: <br>
+                                <br>1. Intégrer une galerie d’images <br>2. Intégrer des icônes <br>3. Respecter les critères qualité: <br>• Mobile First (medias queries) <br>• Structure HTML clean <br>• Commentaires compréhensibles et concis. <br>
+                                <br>Pour voir le projet veuillez cliquer <a href="https://github.com/Sylvain059/Site-de-vente-de-produits-informatiques"><span>ici</span></a></p>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+
+
+        </section>
+    </div>
 
     <!--    Contact    -->
 
     <section class="container">
-        <h2>Contact</h2>
+        <h2 id="contact">Contact</h2>
 
         <form class="well form-horizontal" action=" " method="post" id="contact_form">
             <fieldset>
@@ -182,7 +295,7 @@
 
     <!--    Réseaux Sociaux    -->
     <footer class="container-fluid">
-        <h2>Réseaux Sociaux</h2>
+        <h2 id="réseauxSociaux">Réseaux Sociaux</h2>
         <ul class="container pull-right">
             <li>
                 <a class="col-md-3" href="https://www.facebook.com/sylvain.sculier88"><img class="socialNetwork" src="img/Facebook.svg" alt="facebook"></a>
@@ -199,7 +312,7 @@
         </ul>
 
         <div class="container licence">
-            <licence class="col-xs-12">2017 Sylvain Sculier</licence>
+            <p class="col-xs-12">&#169; 2017 Sylvain Sculier</p>
         </div>
 
     </footer>
@@ -207,9 +320,12 @@
     <!--  Script JavaScript-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/jquery-3.2.1.min.js">
+
+
     </script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
+
     </script>
     <script src="js/plugins.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -231,6 +347,7 @@
         }(window, document, 'script', 'ga'));
         ga('create', 'UA-XXXXX-X', 'auto');
         ga('send', 'pageview');
+
     </script>
 </body>
 
