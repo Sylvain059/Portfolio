@@ -74,9 +74,40 @@
             <h2 id="présentation">Présentation</h2>
             <figure class="row">
                 <img class="img-responsive col-xs-12 col-sm-3" src="img/me.jpg" alt="Sylvain Sculier">
-                <figcaption class="col-xs-12 col-sm-offset-1 col-sm-6 figcaption">Je suis Sylvain Sculier, apprenant de Simplon à l'ADEP de Roubaix. Actuellement j'ai des bases en HTML 5, CSS3, Je sais également utilisé le framework Bootstrap. <br>
-                    <br>Prochainement je serais formé pour utiliser le JavaScript ainsi que le framework AngularJS, suivi par la suite du langage PHP et du framework Laravel.</figcaption>
+                <figcaption class="col-xs-12 col-sm-offset-1 col-sm-6 figcaption">Je suis Sylvain Sculier. Je suis la formation Simplon developpeur web à l'ADEP de Roubaix. Je connais différente technologie dans lesquelles j'ai les bases.
+                </figcaption>
             </figure>
+            <article class="row compétence">
+                <h3>Mes Compétences</h3>
+                <article class="col-sm-4">
+                    <h4>Technologie apprise <span class="glyphicon glyphicon-ok-sign"></span>:</h4>
+                    <ul class="listCompétence">
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>BOOTSTRAP</li>
+                        <li>MATERIALIZE</li>
+                        <li>FOUNDATION</li>
+                    </ul>
+                </article>
+
+                <article class="col-sm-4">
+                    <h4>En cours d'apprentissage <span class="glyphicon glyphicon-time"></span> :</h4>
+                    <ul class="listCompétence">
+                        <li>JAVASCRIPT</li>
+                        <li>PHP</li>
+                        <li>ANGULAR JS</li>
+                        <li>LARAVEL</li>
+                    </ul>
+                </article>
+
+                <article class="col-sm-4">
+                    <h4>Distribution utilisée <span class="glyphicon glyphicon-cog"></span> :</h4>
+                    <ul class="listCompétence">
+                        <li>DEBIAN/UBUNTU</li>
+                        <li>ARCHLINUX/MANJARO, ANTERGOS</li>
+                    </ul>
+                </article>
+            </article>
         </section>
     </div>
 
@@ -85,16 +116,18 @@
     <div class="container-fluid">
         <section class="projet container">
             <h2 id="projet">Projet</h2>
-            <figure class="col-sm-6 col-md-3">
+            <div class="col-xs-6 col-sm-3">
+                <figure>
 
-                <img src="img/gametek.png" alt="Vente informatique">
+                    <img src="img/gametek.png" alt="Vente informatique">
 
-                <figcaption>Création Site de vente informatique</figcaption>
-                <!-- Bouton execution modal -->
+                    <figcaption>Création Site de vente informatique</figcaption>
+                    <!-- Bouton execution modal -->
+                </figure>
                 <button class="btn btn-info" data-toggle="modal" data-target="#myModal">
   Afficher plus
 </button>
-            </figure>
+            </div>
 
             <!-- Modal -->
             <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -109,10 +142,13 @@
                             <img src="img/gametek.png" alt="Vente informatique">
                             <p>Un site de vente de produits informatiques avec 4 pages: <br>
                                 <br> 1. Une page d’accueil avec 3 fiches produits <br>2. Une page de présentation des produits accessibles en cliquant sur les fiches produits <br>3. Une page de contact avec les informations essentielles (téléphone, adresse, mail, etc.) <br>4. Une page de présentation de l’entreprise qui intègre une Map Google. <br>
-                                <br>
-                                <h4>Bonus:</h4><br>
+                            </p>
+
+                            <h4>Bonus:</h4><br>
+                            <p>
                                 <br>1. Intégrer une galerie d’images <br>2. Intégrer des icônes <br>3. Respecter les critères qualité: <br>• Mobile First (medias queries) <br>• Structure HTML clean <br>• Commentaires compréhensibles et concis. <br>
-                                <br>Pour voir le projet veuillez cliquer <a href="https://github.com/Sylvain059/Site-de-vente-de-produits-informatiques"><span class="linkG">ici</span></a></p>
+                                <br>Pour voir le projet veuillez cliquer <a href="https://github.com/Sylvain059/Site-de-vente-de-produits-informatiques"><span class="linkG">ici</span></a>
+                            </p>
                         </div>
                     </div>
                     <!-- /.modal-content -->
@@ -121,15 +157,15 @@
             </div>
             <!-- /.modal -->
 
-
-            <figure class="col-sm-6 col-md-3">
-                <img src="img/plomberie.png" alt="Plomberie">
-                <figcaption>Création Site de plomberie</figcaption>
-                <!-- Bouton execution modal -->
-                <button class="btn btn-info" data-toggle="modal" data-target="#plomberie">
-  Afficher plus
+            <div class="col-xs-6 col-sm-3">
+                <figure>
+                    <img src="img/plomberie.png" alt="Plomberie">
+                    <figcaption>Création Site de plomberie</figcaption>
+                    <!-- Bouton execution modal -->
+                </figure>
+                <button class="btn btn-info" data-toggle="modal" data-target="#plomberie"> Afficher plus
 </button>
-            </figure>
+            </div>
 
             <!-- Modal -->
             <div class="modal fade" id="plomberie" tabindex="-1" role="dialog" aria-labelledby="plomberieLabel" aria-hidden="true">
@@ -154,15 +190,16 @@
                 <!-- /.modal-dialog -->
             </div>
             <!-- /.modal -->
-
-            <figure class="col-sm-6 col-md-3">
-                <img src="img/piscine.png" alt="Piscine">
-                <figcaption>Création Site de vente de piscine</figcaption>
-                <!-- Bouton execution modal -->
+            <div class="col-xs-6 col-sm-3">
+                <figure>
+                    <img src="img/piscine.png" alt="Piscine">
+                    <figcaption>Création Site de vente de piscine</figcaption>
+                    <!-- Bouton execution modal -->
+                </figure>
                 <button class="btn btn-info" data-toggle="modal" data-target="#piscine">
   Afficher plus
 </button>
-            </figure>
+            </div>
 
             <!-- Modal -->
             <div class="modal fade" id="piscine" tabindex="-1" role="dialog" aria-labelledby="piscineLabel" aria-hidden="true">
@@ -188,15 +225,15 @@
             </div>
             <!-- /.modal -->
 
-
-            <figure class="col-sm-6 col-md-3">
-                <img src="img/webAgency.svg" alt="WebAgengy">
-                <figcaption>Création Site d'agence web en binome</figcaption>
-                <!-- Bouton execution modal -->
-                <button class="btn btn-info" data-toggle="modal" data-target="#webAgency">
-  Afficher plus
+            <div class="col-xs-6 col-sm-3">
+                <figure>
+                    <img src="img/webAgency.svg" alt="WebAgengy">
+                    <figcaption>Création Site d'agence web en binome</figcaption>
+                    <!-- Bouton execution modal -->
+                </figure>
+                <button class="btn btn-info" data-toggle="modal" data-target="#webAgency"> Afficher plus
 </button>
-            </figure>
+            </div>
 
             <!-- Modal -->
             <div class="modal fade" id="webAgency" tabindex="-1" role="dialog" aria-labelledby="webAgencyLabel" aria-hidden="true">
@@ -231,7 +268,7 @@
     <section class="container">
         <h2 id="contact">Contact</h2>
 
-        <form class="well form-horizontal" action=" " method="post" id="contact_form">
+        <form class="well form-horizontal" action="traitement.php" method="post" id="contact_form">
             <fieldset>
 
                 <!-- Form Name -->
@@ -305,16 +342,16 @@
             <h2 id="réseauxSociaux">Réseaux Sociaux</h2>
             <p>Si vous voulez me suivre sur les réseaux, voici mes liens <br> <span class="glyphicon glyphicon-thumbs-up"> </span><span class="glyphicon glyphicon-thumbs-up"> </span><span class="glyphicon glyphicon-thumbs-up"></span></p>
             <ul class="row container">
-                <li class="col-xs-1 col-xs-offset-3 col-sm-offset-4">
-                    <a href="https://www.facebook.com/sylvain.sculier88"><img class="socialNetwork" src="img/Facebook.svg" alt="facebook"></a>
+                <li class="col-xs-1 col-xs-offset-1 col-sm-offset-2">
+                    <a href="https://www.facebook.com/sylvain.sculier.9"><img class="socialNetwork" src="img/Facebook.svg" alt="facebook"></a>
                 </li>
-                <li class="col-xs-1">
+                <li class="col-xs-1 col-xs-offset-1">
                     <a href="https://twitter.com/Sylvain_117"><img class="socialNetwork" src="img/Twitter.svg" alt="twitter"></a>
                 </li>
-                <li class="col-xs-1">
+                <li class="col-xs-1 col-xs-offset-2">
                     <a href="https://plus.google.com/u/0/105073777446586902130"><img class="socialNetwork" src="img/Google+.svg" alt="google +"></a>
                 </li>
-                <li class="col-xs-1">
+                <li class="col-xs-1 col-xs-offset-1">
                     <a href="https://github.com/Sylvain059"><img class="socialNetwork" src="img/Github.svg" alt="github"></a>
                 </li>
             </ul>
