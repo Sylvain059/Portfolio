@@ -96,7 +96,7 @@
                     <ul class="listCompétence">
                         <li>JAVASCRIPT</li>
                         <li>PHP</li>
-                        <li>ANGULAR JS</li>
+                        <li>MYSQL</li>
                         <li>LARAVEL</li>
                     </ul>
                 </article>
@@ -332,7 +332,7 @@
 
             </fieldset>
         </form>
-        <address title="contact"> 
+        <address title="contact">
             <a href="mailto:sylvain.sculier88@gmail.com">Voici également mon adresse mail</a>
         </address>
     </section>
