@@ -428,6 +428,10 @@ CSS RESEAUX SOCIAUX
             color: #fff;
         }
 
+        .copyright {
+            font-size: 12px;
+        }
+
         @media (min-width:768px) {
             footer a {
                 width: 50px;
