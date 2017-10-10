@@ -334,6 +334,10 @@ CSS PRESENTATION
             margin: 0 15px;
         }
 
+        .cv {
+            text-align: center;
+        }
+
         .listCompétence, h4 {
             padding: 0;
             list-style-type: none;
